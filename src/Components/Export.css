@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4a90e2;
+  }
+
+  #diagram {
+    margin: 20px auto;
+    width: 80%;
+    min-height: 500px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+ .diagram-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .label {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: move;
+  }
+  
+  .label input {
+    border: none;
+    background: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #357ab8;
+  }
+  
+  .export-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

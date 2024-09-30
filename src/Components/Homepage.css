@@ -1,0 +1,28 @@
+
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+    text-align: center;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+    list-style-type: none;
+    transition: transform 0.3s ease, color 0.3s ease; 
+  }
+  
+
+  li:hover {
+    transform: scale(1.1); 
+    color: #007BFF; 
+  }
+  
